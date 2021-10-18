@@ -1,0 +1,23 @@
+User-agent: *
+Disallow: /app/
+Disallow: /deposit/
+Disallow: /developers/
+Disallow: /email/
+Disallow: /pay/
+Disallow: /payments/
+Disallow: /transfers/
+Disallow: /unsubscribe/
+Disallow: /us/
+Disallow: /verify/
+
+Noindex: /deposit/
+Noindex: /developers/
+Noindex: /email/
+Noindex: /login?return_to=*
+Noindex: /pay/
+Noindex: /payments/
+Noindex: /support
+Noindex: /transfers/
+Noindex: /verify/
+
+Crawl-delay: 8
